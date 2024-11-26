@@ -8,7 +8,7 @@
     font-style: normal;
     text-decoration: none;
 }
-/*Body Stykes*/
+/*Body Styles*/
 body {
     background-color: #f2f2f2;
     display: flex;
@@ -18,7 +18,7 @@ body {
 }
 
 /*Form Container*/
-.login-box{
+.formContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,13 +28,13 @@ body {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-    gap : 25px;
 }
 
 /*Login Title*/
-.login-box h1{
+.formContainer h1{
     font-size: 30pt;
     color: #333333;
+    margin-bottom: 50px;
 }
 
 /*Login Imputs*/
@@ -45,6 +45,7 @@ input[type="password"] {
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 ::placeholder {

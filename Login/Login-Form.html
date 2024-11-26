@@ -7,15 +7,59 @@
     <title>Login-Form</title>
 </head>
 <body>
-    <div class="login-box">
-        <h1>Login</h1>
-        <input type="text" placeholder="Username" name="" value="">
-        <input type="password" placeholder="Password" name="" value="">
-        <input class="btn" type="button" name="" value="Login">
-        <a href="#">Forgot your Password?</a>
-        <a href="#">Don't have an account? Sign up</a>
-        <a href="#"><i class="fa-solid fa-angle-left"></i>Back</a>
-    </div>
+    <section class="formContainer loginContainer">
+        <form action="#">
+            <h1>Login</h1>
+            <input type="text" placeholder="Username" name="" value="">
+            <input type="password" placeholder="Password" name="" value="">
+            <section class="checkboxContainer">
+                <input type="checkbox" name="" value="">
+                <label for="">Remember me</label>
+                <a href="#">Forgot your Password?</a>
+            </section>
+            <input type="button" name="" value="Login">
+            <h2>Or use your account</h2>
+            <section class="socialMedia">
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </section>
+            <a href="#"><i class="fa-solid fa-angle-left"></i>Back</a>
+        </form>
+    </section>
+
+    <section class="formContainer singinContainer">
+        <form action="#">
+            <h1>Register</h1>
+            <input type="text" placeholder="Username" name="" value="">
+            <input type="text" placeholder="Email" name="" value="">
+            <input type="password" placeholder="Password" name="" value="">
+            <input type="button" name="" value="Sign in">
+            <h2>Or use your account</h2>
+            <section class="socialMedia">
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </section>
+            <a href="#"><i class="fa-solid fa-angle-left"></i>Back</a>
+        </form>
+    </section>
+    
+    <section class="overlayContainer">
+        <section class="overlay">
+            <section class="overlayPanel overlayLeft">
+                <h1 id="login" class="overlayTitle">Just a phrase</h1>
+                <p>Just a phrase</p>
+                <button id="logIn" class="switch">Log In</button>
+            </section>
+            <section class="overlayPanel overlayLeft">
+                <h1 id="login" class="overlayTitle">Just a phrase</h1>
+                <p>Just a phrase</p>
+                <button id="signin" class="switch">Sign In</button>
+            </section>
+        </section>
+    </section>
+
 </body>
 <script src="https://kit.fontawesome.com/a73f9e6bb2.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
