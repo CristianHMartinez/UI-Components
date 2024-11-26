@@ -291,16 +291,28 @@ input{
 }
 .socialMedia a{
     border: 1px solid #dddddd;
-    border: 50%;
+    border-radius: 50%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin: 0 5px;
     height: 50px;
-    width: 40px;
+    width: 50px;
     transition: 0.3s ease-in-out;
 }
 
 .socialMedia a:hover{
     border: 1px solid #333;
+}
+
+.fa-arrow-left{
+    margin-left: -20px;
+}
+
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
+.fa-brands{
+    font-size: 25px;
 }
